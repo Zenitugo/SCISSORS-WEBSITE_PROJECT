@@ -1,0 +1,644 @@
+/* Window page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: auto 1440px;
+    height: 100%;
+}
+
+/* first DiV */
+.firstDiv {
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(to bottom,rgba(249, 240, 238, 255),rgba(253, 249, 233, 255) 80%,rgba(255, 255, 255, 255));
+    Padding: 0;
+    margin: 0;  
+}
+
+/* The Nav Bar*/
+
+.nav-div {
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.nav {
+    align-items: center;
+    position: relative;
+    left: 143px;
+    Top: 5px;
+    padding-top: 0px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.nav1 {
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 200px;
+    font-family: gilroy-Medium;   
+}
+
+#nav-img {
+    display: inline-block;
+}
+
+.list{
+    display: inline;
+    padding-right: 20px;
+ }
+
+.list2 {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.list-2 {
+    display: inline-block;
+    padding-left: 250px;
+}
+
+span {
+    color: #0065FE;
+}
+
+button {
+    border-radius: 20px;
+    background-color: #0065FE;
+    border-color: #0065FE;
+    color: white;
+    padding: 5px 24px;
+}
+
+/* Text Section in the first Div */
+h1{
+    font-size: 2em;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 90px;
+    font-family: gilroy-bold;
+    }
+
+#line-vector {
+    padding-left: 100px;
+    margin-top: -30px;
+}
+   
+p {
+    text-align: center;
+    line-height: 25px;
+    font-family: gilroy-medium;
+}
+
+.thirdDiv {
+    position: relative;
+}
+
+/* The button section in the fisrt Div */
+.secondDiv {
+    display: flex;
+    margin-left: 140px;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: space-around;    
+    gap: 40px;
+}
+#btc {
+    border-radius: 20px;
+    background-color: #0065FE;
+    border-color: #0065FE;
+    color: white;
+    padding: 3px 27px;
+    display: inline-block;
+}
+#learn {
+    color: #0065FE; 
+    padding: 0px;  
+}
+
+/* The rectangle design in first DiV */
+
+ #img-1 { 
+    margin-left: 300px;
+ }
+
+#vector3 {
+    margin-top:-20px;
+    width: 700px;
+}
+
+/*The second section*/
+
+.fourthDiv {
+    height: 150px;
+    width: 100%;
+    background-color: #F9FBFD;   
+}
+.nav-2 {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    text-align: center;  
+    float: right;
+    white-space: nowrap;
+}
+
+.li-2 {
+    float:left;
+    padding: 20px 70px;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Gilroy-Medium', sans-serif;   
+}
+.p-4div {
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+ #div-head {
+    font-size: xx-large;
+    text-align: left;
+    line-height: 50px;
+    display: block;
+    margin-top: -100px;
+    font-family: 'Gilroy-Bold', sans-serif;;
+}
+
+/* The third section*/
+
+.fifthDiv {
+    width: 100%;
+    height: 730px;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -150px;
+}
+
+#imgline {
+    position: absolute;
+    padding-right: 5px;
+   
+}
+.DiV-5 {
+    width:400px;
+    height:400px;
+    margin-top: 70px;
+    margin-right: 50px;
+    text-align: left;
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding: 20px;
+}
+#h2-5 {
+    font-family: gilroy-bold;
+    padding-left: 10px;
+}
+
+#url-s {
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+#qr-codes {
+    margin-top: -200px;
+    
+}
+
+#analytics {
+    margin-top: -200px;
+    text-align: start;
+    
+   
+}
+
+.p-fifth {
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+/* The fourth section */
+
+.sixthDiv {
+    width: 100%;
+    height: 740px;
+    background-color: #FFF;
+    margin-top: -150px;
+    
+}   
+
+#line-72 {
+   position: absolute;
+   margin-left: 470px;
+}
+
+#h2-a {
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: xx-large;
+    margin-bottom: 9px;
+}
+
+#p-2a {
+    font-family: 'Gilroy-Medium', sans-serif;;
+    line-height: 30px;
+    font-size: small;
+}
+
+#basic{
+    width: 300px;
+    height: 300px;
+    background-color:White;
+    float: left;
+    margin-top: 100px;
+    margin-left: 350px;
+    padding-left: 65px; 
+    line-height: 30px; 
+    border-radius: 10px 0 0 10px;
+    padding-top: 30px;
+    border:1px solid #005AE2;
+}
+
+#Professional {
+    width: 300px;
+    height:400px;
+   background-color: #1E3448;
+    float: left;
+    margin-top: 50px;
+    padding-left: 65px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding-top: 60px;
+    z-index: 1;
+    color: white;
+    text-align: left;
+}
+
+#teams {
+    width: 300px;
+    height:300px;
+    background-color: #FFF;
+    float: left;
+    margin-top: 100px; 
+    padding-left: 65px; 
+    line-height: 30px;
+    border-radius: 0 10px 10px 0;
+    padding-top: 30px;
+    border:1px solid #005AE2;
+}
+
+#btc1 {
+    background-color: white;
+    border-color: #0065FE;
+    color: #0065FE;
+    padding: 8px 20px;
+    
+}
+
+#btc2 {
+    padding: 5px 24px;
+}
+
+.div-btc {
+    display: flex;
+    float: left;
+    margin-top: 100px;
+    margin-left: 600px;
+    align-content: center;  
+    gap: 20px;
+}
+
+.li-3 {
+    list-style-type: none;  
+    font-size: small;
+    font: 'Gilroy-Medium', sans-serif;;
+}
+
+
+.p-2 {
+    padding-right: 80px;
+    font-size: larger;
+    text-align: left;
+    font: gilroy-medium;
+}
+
+.img1 {
+    padding-right: 5px;
+}
+
+
+/* The seventh section */
+
+.seventhDiv {
+    width: auto 1440px;
+    height: 400px;
+    background-color: #1E3448;
+    display: flex;
+    justify-content: center;
+    font-family: gilroy-medium;
+    position: relative;
+}
+
+
+
+#pattern-2 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -100px;
+}
+
+#pattern-3 {
+    position:absolute;
+    margin-left: 510px;
+    margin-top: -50px
+}
+.Div-7 {
+    width: 340px;
+    height: 220px;
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+#span-1 {
+    font-weight: bold;
+}
+#url {
+    width: 290px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border-color: #0065FE;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+#domain {
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-color: #0065FE;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 10px;
+    color: #0065FE;
+}
+
+#alas {
+    width: 140px;
+    height: 30px;
+    border-color: #0065FE;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: #0065FE;
+}
+
+#btc3 {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 240px;
+    height: 30px;
+    padding: 5px 24px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+#p-3 {
+    font-size: 10px;
+    line-height: 20px;
+    color: #4991FF;
+    letter-spacing: 0.5px;
+}
+
+/* The fourth section*/
+
+.faq {
+    display: flex;
+    width: 100%;
+    height: 690px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.faq-1 {
+    margin-top: 108px;
+    align-items: flex-end;
+    padding: 10px;
+    position: absolute;
+    margin-left: 740px;
+}
+
+#h2-b {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: gilroy-bold;
+}
+
+#lineimg {
+    position: absolute;
+    margin-left: 350px;    
+}
+
+.div-8 {
+    margin-top: 45px; 
+}
+
+#p-4 {
+    line-height: 20px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: small;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.sign {
+ margin-top: 130px;     
+}
+
+/* The fifth section */
+
+.ninthDiv {
+    width:100%;
+    height:300px;
+    background-color: #1E3448;;
+    display: flex;
+    justify-content: center;
+   
+}
+.div-pattern {
+    position: absolute;
+    margin-left: -1100px;
+}
+
+#pattern-1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 0;
+    margin-top: -80px;
+    
+}
+#patten-4{
+    left: -300px;
+    margin-top: -350px; 
+    top: 0;
+} 
+
+#pattern-5 {
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -0.5px;
+}
+
+.div-9 {
+    padding-top: 100px;
+    justify-content: center;   
+}
+
+#h2-c {
+    color: white;
+    font-family: gilroy-bold;
+    letter-spacing: 2px;
+    
+}
+
+#btc-div {
+    margin-top: 80px;
+}
+
+#btc-div2 {
+    margin-top: 30px;
+    margin-left: 158px;
+    color: #648ac3;
+}
+/* The footer Section */
+
+.tenthDiv {
+    width: 100%;
+    height: 600px;
+    background-color: #FFF;
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ #div-10 {
+    width: 250px;
+    height: 130px;
+    background-color: #FFF;
+    margin-top: 60px;
+    margin-left: 20px;
+ }
+
+#div-10a {
+   background-color: #FFF;
+   width: 250px;
+   height: 130px;
+   margin-top: 60px;
+}
+
+#div-10b {
+    background-color: #FFF;
+    width: 250px;
+   height: 150px;
+   margin-top: 60px;
+}
+
+#div-10c {
+    width: 250px;
+   height: 130px;
+   background-color: #FFF;
+   margin-top: 60px;
+}
+
+#div-10d {
+    width: 250px;
+    height: 190px;
+    background-color: #FFF;
+    margin-top: 60px;
+}
+
+#div-10e {
+    width: 250px;
+    height: 235px;
+    background-color: #FFF;
+    margin-top: -20px;
+    margin-left: 295px;
+
+}
+
+#div-10f {
+    width: 250px;
+    height: 190px;
+    background-color: #FFF;
+    margin-top: -20px;
+}
+
+#div-10g {
+    width: 250px;
+    height: 170px;
+    background-color: #FFF;
+    margin-top: -20px;
+}
+
+#div-10h {
+    width: 400px;
+    height: 50px;
+    background-color: #FFF;
+    margin-top: 10px;
+    margin-left: 1000px;
+   
+}
+
+.h4 {
+    text-align: left;
+    font-family: 'Gilroy-Medium', sans-serif;
+    margin-bottom: 15px;
+    font-size: small;
+    color: #071827;
+}
+
+.p4 {
+    text-align: left;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: small;
+    color: #112232
+}
+
+#p4a {
+    text-align: end;
+    color: #112232;
+    font-size: smaller;
+}
+
+
+
+
+
+
+
+
